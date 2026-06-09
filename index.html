@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-PT" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Silvana Cabeleireiros e Estética | Salão em Rio Tinto</title>
+  <meta name="description"
+    content="Na Silvana Cabeleireiros e Estética em Rio Tinto encontra atendimento profissional e dedicado. Especialistas em corte, coloração e estética.">
+  <meta name="keywords"
+    content="cabeleireiro Rio Tinto, salão de cabeleireiro, estética, corte de cabelo, coloração, Silvana Cabeleireiros">
+  <meta name="author" content="Silvana Cabeleireiros e Estética">
+  <meta name="robots" content="index, follow">
+
+  <!-- SEO: Canonical Tag (Altere para o seu domínio real) -->
+  <link rel="canonical" href="https://www.seusite.pt/">
+
+  <!-- SEO: Open Graph (Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.seusite.pt/">
+  <meta property="og:title" content="Silvana Cabeleireiros e Estética | Salão em Rio Tinto">
+  <meta property="og:description"
+    content="Na Silvana Cabeleireiros e Estética em Rio Tinto encontra atendimento profissional e dedicado. Especialistas em corte, coloração e estética.">
+  <meta property="og:image" content="https://www.seusite.pt/banner2.jpg">
+
+  <!-- SEO: Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Silvana Cabeleireiros e Estética | Salão em Rio Tinto">
+  <meta name="twitter:description"
+    content="Na Silvana Cabeleireiros e Estética em Rio Tinto encontra atendimento profissional e dedicado. Especialistas em corte, coloração e estética.">
+  <meta name="twitter:image" content="https://www.seusite.pt/banner2.jpg">
+
+  <!-- Fontes Premium do Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Dados Estruturados Schema.org (SEO Local Expandido) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Silvana Cabeleireiros e Estética",
+    "image": "https://www.seusite.pt/banner2.jpg",
+    "@id": "https://www.seusite.pt/",
+    "url": "https://www.seusite.pt/",
+    "telephone": "+351224880624",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua da Lourinha 417",
+      "addressLocality": "Rio Tinto",
+      "postalCode": "4435-310",
+      "addressCountry": "PT"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "09:30",
+        "closes": "19:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "12"
+    }
+  }
+  </script>
+
+  <!-- Tailwind CSS com Paleta Personalizada -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            nude: {
+              50: '#fcfaf8',
+              100: '#f5f0ea',
+              200: '#eae0d5',
+              300: '#d6c5b3',
+              400: '#bfa38a',
+              500: '#ad876b',
+              600: '#9b7156',
+              700: '#815a46',
+              800: '#694a3b',
+              900: '#553d32',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Ícones -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* Animações suaves */
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Fallback seguro para imagens */
+    .img-safe {
+      background-color: #eae0d5;
+    }
+  </style>
+</head>
+
+<body class="bg-nude-50 font-sans text-nude-900 selection:bg-nude-500 selection:text-white">
+
+  <!-- SEO: Uso de header semântico -->
+  <header>
+    <!-- Navegação Minimalista e Flutuante -->
+    <nav class="fixed w-full z-50 transition-all duration-300 backdrop-blur-md bg-white/80 border-b border-nude-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-24">
+
+          <!-- Logotipo -->
+          <div class="flex-shrink-0">
+            <a href="#" class="flex flex-col">
+              <span class="font-serif font-bold text-2xl tracking-wide text-nude-900">SILVANA</span>
+              <span class="text-[0.65rem] uppercase tracking-[0.3em] text-nude-600 mt-1">Cabeleireiros & Estética</span>
+            </a>
+          </div>
+
+
+
+
+          <!-- Menu Desktop -->
+          <div class="hidden md:block">
+            <div class="ml-10 flex items-center space-x-8">
+              <a href="#sobre"
+                class="text-nude-700 hover:text-nude-500 transition-colors px-3 py-2 text-xs font-semibold uppercase tracking-widest">O
+                Espaço</a>
+              <a href="#servicos"
+                class="text-nude-700 hover:text-nude-500 transition-colors px-3 py-2 text-xs font-semibold uppercase tracking-widest">Serviços</a>
+              <a href="#avaliacoes"
+                class="text-nude-700 hover:text-nude-500 transition-colors px-3 py-2 text-xs font-semibold uppercase tracking-widest">Testemunhos</a>
+              <a href="#contactos"
+                class="text-nude-700 hover:text-nude-500 transition-colors px-3 py-2 text-xs font-semibold uppercase tracking-widest">Contactos</a>
+              <a href="tel:+351224880624"
+                class="bg-nude-900 hover:bg-nude-800 text-white px-6 py-3 text-xs font-semibold uppercase tracking-widest transition-colors flex items-center gap-2">
+                Marcações
+              </a>
+            </div>
+          </div>
+
+          <!-- Menu Mobile Toggle -->
+          <div class="md:hidden">
+            <button id="mobile-menu-btn" aria-label="Abrir menu" class="text-nude-900 p-2 focus:outline-none">
+              <i data-lucide="menu" id="icon-menu" class="h-6 w-6 block"></i>
+              <i data-lucide="x" id="icon-x" class="h-6 w-6 hidden"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Mobile Dropdown -->
+      <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-nude-200 absolute w-full shadow-xl">
+        <div class="px-4 pt-4 pb-6 space-y-2">
+          <a href="#sobre"
+            class="block mobile-link px-3 py-3 text-sm font-medium uppercase tracking-widest text-nude-800 hover:bg-nude-100">O
+            Espaço</a>
+          <a href="#servicos"
+            class="block mobile-link px-3 py-3 text-sm font-medium uppercase tracking-widest text-nude-800 hover:bg-nude-100">Serviços</a>
+          <a href="#avaliacoes"
+            class="block mobile-link px-3 py-3 text-sm font-medium uppercase tracking-widest text-nude-800 hover:bg-nude-100">Testemunhos</a>
+          <a href="#contactos"
+            class="block mobile-link px-3 py-3 text-sm font-medium uppercase tracking-widest text-nude-800 hover:bg-nude-100">Contactos</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- SEO: Uso de main semântico para o conteúdo central -->
+  <main>
+    <!-- Secção Hero - Estilo Editorial -->
+    <section class="relative min-h-[90vh] flex items-center pt-20">
+      <div class="absolute inset-0 z-0">
+        <div class="w-full h-full bg-nude-100 img-safe">
+          <!-- SEO: fetchpriority="high" adicionado para LCP otimizado -->
+          <img src="./banner3.png" alt="Interior de salão elegante"
+            class="w-full h-full object-cover object-center opacity-90" fetchpriority="high" />
+        </div>
+        <!-- Gradiente suave para leitura -->
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-white/90 via-white/60 to-transparent sm:from-white/80 sm:via-white/40">
+        </div>
+      </div>
+
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full fade-in">
+        <div class="max-w-2xl">
+          <p class="text-nude-600 font-semibold tracking-[0.2em] uppercase text-xs sm:text-sm mb-4">A arte de cuidar de
+            si</p>
+          <h1 class="text-5xl sm:text-7xl font-serif text-nude-900 leading-tight mb-8">
+            A sua beleza,<br />a nossa paixão.
+          </h1>
+          <p class="text-lg text-nude-700 font-light mb-10 max-w-lg leading-relaxed">
+            Um espaço pensado para o seu bem-estar em Rio Tinto. Dedicação, técnica e os melhores produtos para realçar
+            a sua essência.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="tel:+351224880624"
+              class="bg-nude-900 hover:bg-nude-800 text-white text-center px-8 py-4 text-sm font-semibold uppercase tracking-widest transition-all">
+              Agendar Marcação
+            </a>
+            <a href="#servicos"
+              class="bg-transparent border border-nude-400 hover:border-nude-900 text-nude-900 text-center px-8 py-4 text-sm font-semibold uppercase tracking-widest transition-all">
+              Descobrir Serviços
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secção O Espaço (Sobre) -->
+    <section id="sobre" class="py-24 sm:py-32 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+
+          <div class="relative img-safe h-[600px] w-full">
+            <!-- SEO: loading="lazy" adicionado -->
+            <img src="./image-1v2.png" alt="Produtos de estética e ambiente tranquilo" class="object-cover h-full w-full"
+              loading="lazy" />
+            <div class="absolute -bottom-8 -right-8 w-48 h-48 bg-nude-100 hidden md:block -z-10"></div>
+          </div>
+
+          <div class="flex flex-col justify-center">
+            <p class="text-nude-500 font-semibold tracking-[0.2em] uppercase text-xs mb-4">Sobre Nós</p>
+            <h2 class="text-4xl sm:text-5xl font-serif text-nude-900 mb-8 leading-tight">Profissionalismo,<br />Rigor e
+              Simpatia.</h2>
+            <div class="space-y-6 text-nude-600 font-light leading-relaxed">
+              <p>
+                Localizado na Rua da Lourinha, em Rio Tinto, o salão <strong>Silvana Cabeleireiros e Estética</strong> é
+                muito mais do que um local de passagem. É um espaço de paragem obrigatória para quem valoriza o cuidado
+                pessoal e um atendimento de excelência.
+              </p>
+              <p>
+                Com anos de dedicação, acompanhamos as últimas tendências e utilizamos apenas produtos de marcas
+                profissionais, garantindo que o seu cabelo e a sua pele recebem o melhor tratamento possível, num
+                ambiente acolhedor e requintado.
+              </p>
+            </div>
+
+            <div class="mt-10 grid grid-cols-2 gap-8 border-t border-nude-200 pt-10">
+              <div>
+                <p class="text-3xl font-serif text-nude-900 mb-2">100%</p>
+                <p class="text-xs font-semibold uppercase tracking-widest text-nude-500">Dedicação a si</p>
+              </div>
+              <div>
+                <p class="text-3xl font-serif text-nude-900 mb-2 flex items-center gap-1">4.8 <i data-lucide="star"
+                    class="w-5 h-5 fill-current text-nude-400"></i></p>
+                <p class="text-xs font-semibold uppercase tracking-widest text-nude-500">Avaliação Google</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Secção Serviços - Design Minimalista -->
+    <section id="servicos" class="py-24 sm:py-32 bg-nude-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 lg:mb-24 gap-8">
+          <div class="max-w-2xl">
+            <p class="text-nude-500 font-semibold tracking-[0.2em] uppercase text-xs mb-4">O que fazemos</p>
+            <h2 class="text-4xl sm:text-5xl font-serif text-nude-900 leading-tight">Os Nossos Serviços</h2>
+          </div>
+          <p class="text-nude-600 font-light max-w-sm">Técnicas apuradas e uma equipa especializada para elevar a sua
+            imagem ao próximo nível.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
+
+          <!-- Serviço 1 -->
+          <div class="group cursor-pointer">
+            <div class="w-full h-64 bg-nude-200 mb-6 overflow-hidden img-safe">
+              <!-- SEO: loading="lazy" adicionado -->
+              <img src="./1de4.jpg" loading="lazy"
+                onerror="this.onerror=null; this.src='https://placehold.co/600x400/eae0d5/9b7156?text=Corte+%26+Brushing';"
+                alt="Corte e Brushing"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out">
+            </div>
+            <div class="flex justify-between items-center mb-3">
+              <h3 class="text-2xl font-serif text-nude-900">Corte & Brushing</h3>
+              <span class="text-xs font-semibold uppercase tracking-widest text-nude-500">Sob Consulta</span>
+            </div>
+            <p class="text-nude-600 font-light">Cortes personalizados para realçar os seus traços, finalizados com um
+              brushing duradouro e impecável.</p>
+          </div>
+
+          <!-- Serviço 2 -->
+          <div class="group cursor-pointer">
+            <div class="w-full h-64 bg-nude-200 mb-6 overflow-hidden img-safe">
+              <!-- SEO: loading="lazy" adicionado -->
+              <img src="./2de4.jpg" loading="lazy"
+                onerror="this.onerror=null; this.src='https://placehold.co/600x400/eae0d5/9b7156?text=Colora%C3%A7%C3%A3o';"
+                alt="Coloração e Madeixas"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out">
+            </div>
+            <div class="flex justify-between items-center mb-3">
+              <h3 class="text-2xl font-serif text-nude-900">Coloração & Madeixas</h3>
+              <span class="text-xs font-semibold uppercase tracking-widest text-nude-500">Sob Consulta</span>
+            </div>
+            <p class="text-nude-600 font-light">Técnicas avançadas de cor, balayage e nuances, com produtos que protegem
+              a integridade da fibra capilar.</p>
+          </div>
+
+          <!-- Serviço 3 -->
+          <div class="group cursor-pointer">
+            <div class="w-full h-64 bg-nude-200 mb-6 overflow-hidden img-safe">
+              <!-- SEO: loading="lazy" adicionado -->
+              <img src="./3de4v2.png" loading="lazy"
+                onerror="this.onerror=null; this.src='https://placehold.co/600x400/eae0d5/9b7156?text=Tratamentos';"
+                alt="Tratamentos Capilares"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out">
+            </div>
+            <div class="flex justify-between items-center mb-3">
+              <h3 class="text-2xl font-serif text-nude-900">Tratamentos Capilares</h3>
+              <span class="text-xs font-semibold uppercase tracking-widest text-nude-500">Sob Consulta</span>
+            </div>
+            <p class="text-nude-600 font-light">Hidratação, nutrição e reconstrução capilar para devolver a saúde e o
+              brilho intenso ao seu cabelo.</p>
+          </div>
+
+          <!-- Serviço 4 -->
+          <div class="group cursor-pointer">
+            <div class="w-full h-64 bg-nude-200 mb-6 overflow-hidden img-safe">
+              <!-- SEO: loading="lazy" adicionado -->
+              <img src="./4de4.jpg" loading="lazy"
+                onerror="this.onerror=null; this.src='https://placehold.co/600x400/eae0d5/9b7156?text=Est%C3%A9tica';"
+                alt="Gabinete de Estética"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out">
+            </div>
+            <div class="flex justify-between items-center mb-3">
+              <h3 class="text-2xl font-serif text-nude-900">Gabinete de Estética</h3>
+              <span class="text-xs font-semibold uppercase tracking-widest text-nude-500">Sob Consulta</span>
+            </div>
+            <p class="text-nude-600 font-light">Serviços complementares de manicura, pedicura, epilação e tratamentos de
+              rosto.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Secção Testemunhos -->
+    <section id="avaliacoes" class="py-24 sm:py-32 bg-nude-900 text-nude-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-20">
+          <p class="text-nude-400 font-semibold tracking-[0.2em] uppercase text-xs mb-4">A Voz de Quem Confia</p>
+          <h2 class="text-4xl sm:text-5xl font-serif mb-6">Testemunhos</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          <!-- Review 1 -->
+          <div
+            class="bg-nude-800 p-10 border border-nude-700/50 flex flex-col h-full hover:bg-nude-800/80 transition-colors">
+            <div class="flex gap-1 mb-8">
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+            </div>
+            <p class="text-nude-200 font-light text-lg mb-8 leading-relaxed flex-grow">"Adoro, muito profissional. Corte
+              perfeito. Cor perfeita. TOP."</p>
+            <div class="flex items-center gap-4 mt-auto pt-6 border-t border-nude-700/50">
+              <div
+                class="w-12 h-12 bg-nude-700 rounded-full flex items-center justify-center font-serif text-xl text-white">
+                E</div>
+              <div>
+                <p class="font-medium text-white tracking-wide">Elisabete Cruz</p>
+                <p class="text-xs text-nude-400 uppercase tracking-widest mt-1">Via Google</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div
+            class="bg-nude-800 p-10 border border-nude-700/50 flex flex-col h-full hover:bg-nude-800/80 transition-colors">
+            <div class="flex gap-1 mb-8">
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+            </div>
+            <p class="text-nude-200 font-light text-lg mb-8 leading-relaxed flex-grow">"Muito profissional e dedicada.
+              Excelente serviço."</p>
+            <div class="flex items-center gap-4 mt-auto pt-6 border-t border-nude-700/50">
+              <div
+                class="w-12 h-12 bg-nude-700 rounded-full flex items-center justify-center font-serif text-xl text-white">
+                V</div>
+              <div>
+                <p class="font-medium text-white tracking-wide">Verónica Dias</p>
+                <p class="text-xs text-nude-400 uppercase tracking-widest mt-1">Via Google</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div
+            class="bg-nude-800 p-10 border border-nude-700/50 flex flex-col h-full hover:bg-nude-800/80 transition-colors">
+            <div class="flex gap-1 mb-8">
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+              <i data-lucide="star" class="w-4 h-4 text-nude-300 fill-nude-300"></i>
+            </div>
+            <p class="text-nude-200 font-light text-lg mb-8 leading-relaxed flex-grow">"Excelente profissional!"</p>
+            <div class="flex items-center gap-4 mt-auto pt-6 border-t border-nude-700/50">
+              <div
+                class="w-12 h-12 bg-nude-700 rounded-full flex items-center justify-center font-serif text-xl text-white">
+                D</div>
+              <div>
+                <p class="font-medium text-white tracking-wide">daiane1779</p>
+                <p class="text-xs text-nude-400 uppercase tracking-widest mt-1">Via Google</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Secção Contactos & Mapa -->
+    <section id="contactos" class="py-24 sm:py-32 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+
+          <div class="lg:col-span-5 flex flex-col justify-center">
+            <p class="text-nude-500 font-semibold tracking-[0.2em] uppercase text-xs mb-4">Informações</p>
+            <h2 class="text-4xl font-serif text-nude-900 mb-12">Onde estamos</h2>
+
+            <div class="space-y-10">
+
+              <div class="flex items-start gap-6">
+                <div class="mt-1 text-nude-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                    class="w-6 h-6">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold uppercase tracking-widest text-nude-900 mb-2">Redes Sociais</h4>
+                  <a href="https://www.instagram.com/silvana_cabeleireiro" target="_blank" rel="noopener noreferrer"
+                    class="text-nude-600 font-light hover:text-nude-900 transition-colors">@silvana_cabeleireiro</a>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-6 pt-6 border-t border-nude-200">
+                <div class="w-full">
+                  <h4 class="text-sm font-semibold uppercase tracking-widest text-nude-900 mb-6">Horário de
+                    Funcionamento</h4>
+                  <ul class="space-y-4 w-full">
+                    <li class="flex justify-between items-center text-sm">
+                      <span class="text-nude-500 uppercase tracking-wider">Segunda</span>
+                      <span class="font-medium text-nude-900">Encerrado</span>
+                    </li>
+                    <li class="flex justify-between items-center text-sm">
+                      <span class="text-nude-500 uppercase tracking-wider">Terça a Sexta</span>
+                      <span class="font-medium text-nude-900">09:30 – 19:00</span>
+                    </li>
+                    <li class="flex justify-between items-center text-sm">
+                      <span class="text-nude-500 uppercase tracking-wider">Sábado</span>
+                      <span class="font-medium text-nude-900">09:30 – 19:00</span>
+                    </li>
+                    <li class="flex justify-between items-center text-sm">
+                      <span class="text-nude-500 uppercase tracking-wider">Domingo</span>
+                      <span class="font-medium text-nude-900">Encerrado</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7 h-[500px] lg:h-auto bg-nude-100 img-safe">
+            <iframe title="Localização no Google Maps de Silvana Cabeleireiros e Estética em Rio Tinto"
+              src="https://maps.google.com/maps?q=Rua+da+Lourinha+417,+Rio+Tinto&t=&z=16&ie=UTF8&iwloc=&output=embed"
+              width="100%" height="100%" style="border: 0; filter: grayscale(40%) contrast(90%);" allowfullscreen=""
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              class="w-full h-full object-cover transition-all duration-500 hover:filter-none"></iframe>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé Editorial -->
+  <footer class="bg-nude-50 py-16 border-t border-nude-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-8">
+
+      <div class="flex flex-col items-center md:items-start text-center md:text-left">
+        <span class="font-serif font-bold text-xl tracking-wide text-nude-900">SILVANA</span>
+        <span class="text-[0.60rem] uppercase tracking-[0.3em] text-nude-500 mt-1">Cabeleireiros & Estética</span>
+      </div>
+
+      <div class="text-xs uppercase tracking-widest text-nude-400">
+        <p>&copy; <span id="current-year"></span> Silvana Cabeleireiros. Todos os direitos reservados.</p>
+      </div>
+
+      <div class="flex gap-6">
+        <a href="https://www.instagram.com/silvana_cabeleireiro" target="_blank" rel="noopener noreferrer"
+          aria-label="Instagram da Silvana Cabeleireiros" class="text-nude-400 hover:text-nude-900 transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante Elegante -->
+  <a href="tel:+351224880624"
+    class="fixed bottom-8 right-8 bg-nude-900 text-white p-4 rounded-full shadow-2xl hover:bg-nude-800 hover:-translate-y-1 transition-all duration-300 z-50 flex items-center justify-center group"
+    aria-label="Ligar para agendar marcação">
+    <i data-lucide="phone" class="w-6 h-6 stroke-[1.5]"></i>
+    <span
+      class="absolute right-16 bg-white text-nude-900 text-xs font-semibold uppercase tracking-widest px-4 py-2 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none shadow-lg border border-nude-100">
+      Fazer Marcação
+    </span>
+  </a>
+
+  <script>
+    // Inicializar Ícones
+    lucide.createIcons();
+
+    // Ano atual no rodapé
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Lógica do Menu Mobile
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const iconMenu = document.getElementById('icon-menu');
+    const iconX = document.getElementById('icon-x');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      iconMenu.classList.toggle('hidden');
+      iconX.classList.toggle('hidden');
+    });
+
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        iconMenu.classList.remove('hidden');
+        iconX.classList.add('hidden');
+      });
+    });
+  </script>
+</body>
+
+</html>
